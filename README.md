@@ -9,3 +9,9 @@ authenticationRequired就是相当于我们访问一个ftp，ftp需要用户输�
     QString headerData = "Basic " + data;
     gRequest.setRawHeader("Authorization", headerData.toLocal8Bit());
 这样就行了，抓包看到的内容全部是加密的。安全了。
+
+
+
+![image](https://github.com/buptis073114/TestAndroidJNI/blob/master/1130108806.jpg)
+![image](https://github.com/buptis073114/TestAndroidJNI/blob/master/1381875294.jpg)
+![image](https://github.com/buptis073114/TestAndroidJNI/blob/master/77042545.jpg)
